@@ -1,0 +1,29 @@
+﻿DONE: Use method (Create_FilterField) to substring filter field instead of storing in Json file...
+
+IsPage_Alive - replace hard-coded urls with json config file;
+
+SearchFor value - For each test, pull values from specific nodes in json config file; 
+ie. QS-1923 uses SearchFor = 'Contacts' whereas other test use SearchFor = 'Participants'
+
+DONE: In general, get test values from json config and not hard-coded in test source files;
+
+// TODO : DEV Add code in Parser to output IsModalLoaded
+public Contact_Summary_Edit_Contact(bool open, IWebDriver browser, WebDriverWait browserWait, ITestOutputHelper output)
+        : base(open, browser, browserWait)
+{
+    Output = output;
+    TraceLine = "Contact_Summary_Edit_Contact Starting...";
+    // No...this is a modal not a Page...Open();
+    WaitForPinwheel(OR_Constants.PINWHEELOVERLAY);
+    // TODO : DEV Add code in Parser to output IsModalLoaded
+    IsModalLoaded();
+}
+
+public void IsModalLoaded()
+{
+    var title = Browser.FindElement(By.Id("AddContactFieldSetTitle")).Text;
+    title.ShouldBe("Edit Contact");
+}
+
+// TODO : How many different xpaths for Eye_Icon_Hyperlink
+private static readonly string Eye_Icon_Hyperlink = @"[data-namespace='Hyperlink']:nth-child(2)";

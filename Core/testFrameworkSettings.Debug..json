@@ -1,0 +1,128 @@
+{
+  "webSettings": {
+    "elementWaitTimeout": "30",
+    "chrome": {
+      "pageLoadTimeout": "120",
+      "scriptTimeout": "5",
+      "artificialDelayBeforeAction": "0"
+    },
+    "fireFox": {
+      "pageLoadTimeout": "30",
+      "scriptTimeout": "1",
+      "artificialDelayBeforeAction": "0"
+    },
+    "edge": {
+      "pageLoadTimeout": "30",
+      "scriptTimeout": "1",
+      "artificialDelayBeforeAction": "0"
+    },
+    "internetExplorer": {
+      "pageLoadTimeout": "30",
+      "scriptTimeout": "1",
+      "artificialDelayBeforeAction": "0"
+    },
+    "opera": {
+      "pageLoadTimeout": "30",
+      "scriptTimeout": "1",
+      "artificialDelayBeforeAction": "0"
+    },
+    "safari": {
+      "pageLoadTimeout": "30",
+      "scriptTimeout": "1",
+      "artificialDelayBeforeAction": "0"
+    }
+  },
+  // Quicksilver
+  "qsUrlSettings": {
+    "site": "graphite", //local, graphite, doe
+    "localUrl": "http://192.168.23.128:8095/Content/",
+    "graphiteUrl": "http://energy.demo-vm.com/Content/",
+    "doeUrl": "https://dart-uat.loanprograms.energy.gov/Content/"
+  },
+  // Loan Program
+  "lpUrlSettings": {
+    "site": "doe", //local, graphite, doe
+    "localUrl": "http://192.168.23.128:8099/content/",
+    "graphiteUrl": "http://energy.demo-vm.com/Content/",
+    "doeUrl": "https://dart-uat.loanprograms.energy.gov/Content/"
+  },
+
+  "qsUserSettings": {
+    "User_Id": "Scotth",
+    "User_Password": "Energy"
+    //"Graphite_User_Id": "ScottH",
+    //"Graphite_User_Password": "Energy",
+    //"User_Id": "DOE\\Mike.Rodriguez",
+    //"User_Password": "Energy"
+  },
+
+  "lpUserSettings": {
+    "User_Id": "DOE\\Mike.Rodriguez",
+    "User_Password": "Energy"
+  },
+    "Participant_Contact_Profile": {
+      "contactName": "Paul Zavesoff",
+      "loanProfileNameFilter": "SOLAR PARTNERS II, ",
+      "loanProfileName": "SOLAR PARTNERS II, LLC - 1009",
+      "participantName": "NRG Energy, Inc",
+      "orderBy": "",
+      "searchFor": "Participant",
+      "sortBy": "",
+      "status": "Active"
+    },
+    "QS-1890": {
+      "loanProfileNameFilter": "SOLAR PARTNERS II, ",
+      "loanProfileName": "SOLAR PARTNERS II, LLC - 1009",
+      "searchFor": "Participant",
+      "status": "Active"
+    },
+    "QS-1954": {
+      "contactName": "Paul Zavesoff",
+      "loanProfileNameFilter": "SOLAR PARTNERS II, ",
+      "loanProfileName": "SOLAR PARTNERS II, LLC - 1009",
+      "participantName": "NRG Energy, Inc",
+      "orderBy": "",
+      "searchFor": "Participant",
+      "sortBy": "",
+      "status": "Active"
+    },
+    "QS-1972": {
+      "assignedGroup": "PMD Loan Task",
+      "assignedTo": "Melissa Smith",
+      "displayCcList": "No",
+      "dueDate": "6/15/2019",
+      "dueDateStatus": "Firm",
+      "legalInvolvement": "Required",
+      "loanProfileName": "GEORGIA POWER COMPANY - 1021",
+      "subTaskType": "Legal Confirmation",
+      "taskType": "Disbursement Request",
+      "taskName": "Rest Disbursement Request",
+      "workflowStatus": "Awaiting Action"
+    },
+    "QS-1979": {
+      "contactName": "Paul Zavesoff",
+      "loanProfileNameFilter": "SOLAR PARTNERS II, ",
+      "loanProfileName": "SOLAR PARTNERS II, LLC - 1009",
+      "participantName": "NRG Energy, Inc",
+      "searchFor": "Participant",
+      "status": "Active"
+    },
+    "QS-1980": {
+      "contactName": "Paul Zavesoff",
+      "loanProfileNameFilter": "SOLAR PARTNERS II, ",
+      "loanProfileName": "SOLAR PARTNERS II, LLC - 1009",
+      "participantName": "NRG Energy, Inc",
+      "searchFor": "Participant",
+      "status": "Active"
+    },
+    "QS-1981": {
+      "addContactModalParticipantShortName": "Abeng",
+      "addContactModalParticipanName": "Abengoa Solar Inc.",
+      "contactName": "Paul Zavesoff",
+      "loanProfileNameFilter": "SOLAR PARTNERS II, ",
+      "loanProfileName": "SOLAR PARTNERS II, LLC - 1009",
+      "participantName": "NRG Energy, Inc",
+      "searchFor": "Participant",
+      "status": "Active"
+    }
+  }

@@ -1,0 +1,327 @@
+// Quicksilver all releases
+{
+  "webSettings": {
+    "elementWaitTimeout": "30",
+    "chrome": {
+      "pageLoadTimeout": "120",
+      "scriptTimeout": "5",
+      "artificialDelayBeforeAction": "0"
+    },
+    "fireFox": {
+      "pageLoadTimeout": "30",
+      "scriptTimeout": "1",
+      "artificialDelayBeforeAction": "0"
+    },
+    "edge": {
+      "pageLoadTimeout": "30",
+      "scriptTimeout": "1",
+      "artificialDelayBeforeAction": "0"
+    },
+    "internetExplorer": {
+      "pageLoadTimeout": "30",
+      "scriptTimeout": "1",
+      "artificialDelayBeforeAction": "0"
+    },
+    "opera": {
+      "pageLoadTimeout": "30",
+      "scriptTimeout": "1",
+      "artificialDelayBeforeAction": "0"
+    },
+    "safari": {
+      "pageLoadTimeout": "30",
+      "scriptTimeout": "1",
+      "artificialDelayBeforeAction": "0"
+    }
+  },
+  "urlSettings": {
+    // site = "local", graphite", "doeDevQS", "doeUatQS", "doeUatAp"
+    // SSO = true or false
+    "site": "local",
+    "singleSignOn": false,
+    "localUrl": "http://192.168.23.132:81",
+    "graphiteUrl": "http://energy.graphitegtc.com",
+    "doeUatApUrl": "https://dart-uat.loanprograms.energy.gov",
+    "doeUatQsUrl": "https://efadtestquicksilver.doe.gov",
+    "doeDevQsUrl": "https://efaddevquicksilver.energy.gov"
+  },
+  "userSettings": {
+    //"UserId": "howard.payne",
+    //" Graphite_UserId": "ScottH",
+    // QS DOE
+    // "DOE\Michael.Rodriguez";
+    "UserId": "Scotth",
+    "UserPassword": "Energy"
+  },
+  "Participant_Contact_Profile": {
+    "contactName": "Zavesoff, Paul",
+    "loanProfileNameFilter": "SOLAR PARTNERS II, ",
+    "loanProfileName": "SOLAR PARTNERS II, LLC - 1009",
+    "participantName": "NRG Energy, Inc",
+    "orderBy": "",
+    "searchFor": "Participant", //"Contact",
+    "sortBy": "",
+    "status": "Active"
+  },
+  "OR_1572_TestData": {
+    "loanProfileNameFilter": "SOLAR PARTNERS II, LLC - ",
+    "loanProfileName": "SOLAR PARTNERS II, LLC - 1009",
+    "searchFor": "Participant",
+    "status": "Active"
+  },
+  "OR_1890_TestData": {
+    "loanProfileNameFilter": "SOLAR PARTNERS II, LLC - ",
+    "loanProfileName": "SOLAR PARTNERS II, LLC - 1009",
+    "searchFor": "Participant",
+    "status": "Active"
+  },
+  "OR_1918_TestData": {
+    "loanProfileNameFilter": "ARIZONA SOLAR ONE LLC -",
+    "loanProfileName": "ARIZONA SOLAR ONE LLC -1057",
+    "searchByFilter": "Project Update",
+    "sortBy": "Loan Profile Name",
+    "OrderBy": "Ascending"
+  },
+  "OR_1923_TestData": {
+    "contactNameFilter": "Paul Zave",
+    "contactName": "Paul Zavesoff",
+    "loanProfileNameFilter": "SOLAR PARTNERS II, LLC - ",
+    "loanProfileName": "SOLAR PARTNERS II, LLC - 1009",
+    "participantNameFilter": "NRG Energy,",
+    "participantName": "NRG Energy, Inc",
+    "searchFor": "Participant",
+    "status": "Active",
+    "sortBy" : "Loan Profile Name",
+    "OrderBy" :  "Ascending"
+  },
+  "OR_1954_TestData": {
+    "contactNameFilter": "Paul Zave",
+    "contactName": "Paul Zavesoff",
+    "loanProfileNameFilter": "SOLAR PARTNERS II, LLC - ",
+    "loanProfileName": "SOLAR PARTNERS II, LLC - 1009",
+    "participantNameFilter": "NRG Energy,",
+    "participantName": "NRG Energy, Inc",
+    "searchFor": "Participant",
+    "status": "Active",
+    "sortBy": ""
+  },
+  "OR_1972_TestData": {
+    "assignedGroup": "PMD Loan Task",
+    "assignedTo": "Smith, Melissa",
+    "displayCcList": "No",
+    "dueDate": "6/15/2019",
+    "dueDateStatus": "Firm",
+    "legalInvolvement": "Required",
+    "loanProfileName": "GEORGIA POWER COMPANY - 1021",
+    "subTaskType": "Legal Confirmation",
+    "taskType": "Disbursement Request",
+    "taskName": "QS-1972 Test Disbursement Request",
+    "workflowStatus": "Awaiting Action"
+  },
+  "OR_1978_AmendmentRequest_TestData": {
+    // Bratton
+    "assignedGroup": "PMD Loan Task",
+    "loanProfileName": "GENESIS SOLAR, LLC – F1017",
+    "taskName": "QS-1978 Test Amendment Request Process",
+    "assignedTo": "Hall, Raymond",
+    "taskType": "Amendment Request’ ",
+    "dueDate": "9/01/2019",
+    "dueDateStatus": "Firm",
+    "legalInvolvement": "Not Required",
+    "displayCcList": "No",
+    "ControlPoint_Complete": "No",
+    "ControlPoint_Name": "Raymond Hall",
+    "ControlPoint_1_2_Completion_Date ": "9/30/2019",
+    "ControlPoint_Comments": "QS-Test Comments"
+  },
+  "OR_1978_WaiverRequest_TestData": {
+    // Bratton
+    "assignedGroup": "PMD Loan Task",
+    "loanProfileName": "GENESIS SOLAR, LLC – F1017",
+    "taskName": "QS-1978 Test Waiver Request Process",
+    "assignedTo": "Hall, Raymond",
+    "taskType": "Amendment Request’ ",
+    "dueDate": "9/01/2019",
+    "dueDateStatus": "Firm",
+    "legalInvolvement": "Not Required",
+    "displayCcList": "No"
+  },
+  "OR_1978_ActionRequest_TestData": {
+    // Hyman
+    "assignedGroup": "PMD Loan Task",
+    "loanProfileName": "MOJAVE SOLAR, LLC – 1131",
+    "taskName": "QS-1978 Test Action Request Process",
+    "assignedTo": "Hall, Raymond",
+    "taskType": "Action Request’ ",
+    "dueDate": "9/01/2019",
+    "dueDateStatus": "Firm",
+    "legalInvolvement": "Not Required",
+    "displayCcList": "No"
+  },
+  "OR_1978_ConsentRequest_TestData": {
+    // Murray
+    "assignedGroup": "PMD Loan Task",
+    "loanProfileName": "KEPCO SOLAR OF ALAMOSA LLC – 1232",
+    "taskName": "QS-1978 Test Consent Request Process",
+    "assignedTo": "Hall, Raymond",
+    "taskType": "Consent Request",
+    "dueDate": "9/01/2019",
+    "dueDateStatus": "Firm",
+    "legalInvolvement": "Not Required",
+    "displayCcList": "No"
+  },
+  "OR_1978_CreditReport_TestData": {
+    // Murray
+    "assignedGroup": "PMD Borrower Task",
+    "loanProfileName": "KEPCO SOLAR OF ALAMOSA LLC – 1232",
+    "taskName": "QS-1978 Test Credit Report Process",
+    "assignedTo": "Hall, Raymond",
+    "taskType": "Credit Report",
+    "dueDate": "9/01/2019",
+    "dueDateStatus": "Firm"
+  },
+  "OR_1979_TestData": {
+    "contactName": "Zavesoff, Paul",
+    "loanProfileNameFilter": "SOLAR PARTNERS II, ",
+    "loanProfileName": "SOLAR PARTNERS II, LLC - 1009",
+    "participantName": "NRG Energy, Inc",
+    "searchFor": "Participant",
+    "status": "Active"
+  },
+  "OR_1980_TestData": {
+    "contactName": "Paul Zavesoff",
+    "loanProfileNameFilter": "SOLAR PARTNERS II, ",
+    "loanProfileName": "SOLAR PARTNERS II, LLC - 1009",
+    "participantName": "NRG Energy, Inc",
+    "searchFor": "Participant",
+    "status": "Active"
+  },
+  "OR_1981_TestData": {
+    "addContactModalParticipantShortName": "Abeng",
+    "addContactModalParticipantName": "Abengoa Solar Inc.",
+    "contactName": "Paul Zavesoff",
+    "loanProfileNameFilter": "SOLAR PARTNERS II, ",
+    "loanProfileName": "SOLAR PARTNERS II, LLC - 1009",
+    "participantName": "NRG Energy, Inc",
+    "searchFor": "Contact",
+    "status": "Active"
+  },
+  "OR_2070_TestData": {
+    "assignedGroup": "PMD Borrower Task",
+    "assignedTo": "Hall, Raymond",
+    "borrowerName": "1366 Technoloiges, Inc",
+    "creditReportType": "Finance Update",
+    "displayCcList": "No",
+    "dueDate": "9/01/2019",
+    "dueDateStatus": "Draft",
+    "taskName": "QS-2070 Test",
+    "taskType": "Credit Report"
+  },
+  "OR_2080_TestData": {
+    "assignedGroup": "PMD Loan Task",
+    "loanProfileName": "GENESIS SOLAR, LLC – F1017",
+    "taskName": "QS-2080 PMD Task ITems Test",
+    "assignedTo": "Hall, Raymond",
+    "taskType": "Amendment Request’ ",
+    "dueDate": "9/30/2019",
+    "dueDateStatus": "Firm",
+    "legalInvolvement": "Not Required",
+    "displayCcList": "No",
+    "ControlPoint_Complete": "No",
+    "ControlPoint_Name": "Hall, Raymond",
+    "ControlPoint_Completion_Date ": "9/30/2019",
+    "ControlPoint_Comments": "QS-2080 Test Comments"
+  },
+  "OR_2090_Communication_Log_TestData": {
+    "contactDate": "9/30/2019",
+    "pointOfContactFilter": "Hall",
+    "pointOfContact": "Raymond Hall",
+    "communicationType": "Conference Call",
+    "summary": "Project Meeting",
+    "description": "QS-2090_Communication_Log Test",
+    "loanToAssociate": "AGUA CALIENTE SOLAR, LLC - 1170",
+    "participant": "AGUA CALIENTE SOLAR, LLC"
+  },
+  "OR_2092_Monitoring_Activity_Communications_Log_TestData": {
+    "searchByFilter": "Communication Log",
+    "sortBy": "Loan Profile Name",
+    "OrderBy": "Ascending"
+  },
+  "OR_2098_TPMD_Project_Tasks_TestData": {
+    "assignedGroup": "TPMD Task",
+    "assignedTo": "Bolanos, Anthony",
+    "displayCcList": "No",
+    "dueDate": "10/31/2019",
+    "dueDateStatus": "Firm",
+    "projectName": "Agua Caliente Solar, LLC",
+    "projectTaskName": "QS-2098 Test",
+    "projectTaskType": "Construction Report"
+  },
+  "OR_2099_ECD_Tasks_TestData": {
+    "assignedGroup": "ECD Task",
+    "assignedTo": "Stribley, Todd",
+    "displayCcList": "No",
+    "dueDate": "10/31/2019",
+    "dueDateStatus": "Firm",
+    "projectName": "Agua Caliente Solar, LLC",
+    "projectTaskName": "QS-2099 Test",
+    "projectTaskType": "Event-Based Report"
+  },
+  "OR_2191_PMD_PIR_Workflow_TestData": {
+    "assignedGroup": "PMD Loan Task",
+    "assignedTo": "Arora, Naina",
+    "displayCcList": "No",
+    "dueDate": "01/14/2020",
+    "dueDateStatus": "Firm",
+    "legalInvolvement": "Not Required",
+    "loanProfileNameFilter": "AGUA CALIENTE SOLAR, LLC -",
+    "loanProfileName": "AGUA CALIENTE SOLAR, LLC - 1170",
+    "subTaskType": "Legal Confirmation",
+    "taskType": "Action Request",
+    "taskNameFilter": "OR_2191_01_30_2020_01_",
+    "taskName": "OR_2191_01_30_2020_01_Test",
+    "UserId": "DOE\\hymanke",
+    "UserPassword": "Energy"
+  },
+  "OR_2191_PMD_PIR_Workflow_Portfolio_Manager_TestData": {
+    "assignedTo": "Arora, Naina",
+    "comment": "Comment",
+    "loanProfileNameFilter": "AGUA CALIENTE SOLAR, LLC -",
+    "loanProfileName": "AGUA CALIENTE SOLAR, LLC - 1170",
+    "submittedTo": "Kaur, Rupinder",
+    "taskNameFilter": "OR_2191_01_30_2020_01_",
+    "taskName": "OR_2191_01_30_2020_01_Test",
+    "UserId": "DOE\\naina.arora",
+    "UserPassword": "Energy",
+
+    //"Edit Action Request" ActionRequestEditActionRequestModal IframeEditActionRequestModal
+    "ActionRequestType": "Approval",
+    "DateOfActionByDOE": "01/24/2020",
+    "RequiredCompletionDate": "01/24/2020",
+    "Summary": "Action Request Summary",
+
+    //"Edit Description of Issue" ActionRequestEditDescriptionOfIssueModal IframeEditDescriptionOfIssueModal
+    "EditDescriptionOfIssue": "Edit Description of Issue",
+
+    //"Edit PM Action Checklist" PostIssueActivityEditPMActivityChecklistModal IframeEditPMActivityChecklistModal
+    "CompletedCreditAnalysis": "Yes",
+    "ResolvedAllComments": "Yes",
+
+    //"Edit Related Post Issue Request(s)" PostIssueActivityEditRelatedPostIssueRequestsModal IframeEditRelatedPostIssueRequestsModal
+    "EditRelatedPostIssueRequest": "Edit Related Post Issue Request(s)",
+
+    //"Edit Risk Committee Recommendation" PostIssueActivityEditRiskCommitteeRecommendationModal IframeEditRiskCommitteeRecommendationModal
+    "EditRiskCommitteeRecommendation": "Edit Risk Committee Recommendation"
+  },
+  "OR_2191_PMD_PIR_Workflow_Legal_Action_Required_TestData": {
+    "assignedTo": "Arora, Naina",
+    "loanProfileNameFilter": "AGUA CALIENTE SOLAR, LLC -",
+    "loanProfileName": "AGUA CALIENTE SOLAR, LLC - 1170",
+    "searchFor": "Loan Profile Name",
+    "sortBy": "Due Date",
+    "taskType": "Action Request",
+    "taskNameFilter": "OR_2191_01_28_20_01_",
+    "taskName": "OR_2191_01_28_20_01_Test",
+    "UserId": "DOE\\karen.moore",
+    "UserPassword": "Energy"
+  }
+}
