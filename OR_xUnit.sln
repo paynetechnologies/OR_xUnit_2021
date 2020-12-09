@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", "{DD2C3E49-BFB1-45EB-8B44-28665123E6C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "..\QS_xUnit_2021\Core\Core.csproj", "{139A635D-DCED-4B21-B7B7-407AF587F7F2}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OR_Modules", "OR_Modules\OR_Modules.csproj", "{6E70442F-C7C9-4346-BC59-9E79ACB3B6C0}"
 EndProject
@@ -25,10 +25,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DD2C3E49-BFB1-45EB-8B44-28665123E6C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DD2C3E49-BFB1-45EB-8B44-28665123E6C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DD2C3E49-BFB1-45EB-8B44-28665123E6C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DD2C3E49-BFB1-45EB-8B44-28665123E6C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{139A635D-DCED-4B21-B7B7-407AF587F7F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{139A635D-DCED-4B21-B7B7-407AF587F7F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{139A635D-DCED-4B21-B7B7-407AF587F7F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{139A635D-DCED-4B21-B7B7-407AF587F7F2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6E70442F-C7C9-4346-BC59-9E79ACB3B6C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6E70442F-C7C9-4346-BC59-9E79ACB3B6C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E70442F-C7C9-4346-BC59-9E79ACB3B6C0}.Release|Any CPU.ActiveCfg = Release|Any CPU

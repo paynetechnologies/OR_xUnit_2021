@@ -2,6 +2,7 @@ using Core.Base;
 using Core.Driver;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
+using OR_Modules.Configuration;
 using OR_Modules.Model;
 using Shouldly;
 using Xunit.Abstractions;
@@ -11,10 +12,11 @@ namespace OR_Login
     public partial class Login : BasePage
     {
         // need vm url
-        public override string Url => @"http://localhost:100/content/login.html";
+        //public override string Url => @"http://localhost:100/content/login.html";
+        public override string Url => UrlDeterminer.GetSite(Constants.URL.Login);
 
         /// /////////////////////////////////////////
-        
+
         // TODO : add to HTML Parser
 
         // Default userId & password
