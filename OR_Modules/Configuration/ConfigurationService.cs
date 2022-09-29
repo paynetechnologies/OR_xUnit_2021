@@ -48,30 +48,33 @@ namespace OR_Modules.Configuration
             return result;
         }
 
-        // Participant_Contact_Profiles Settings
-        //public ParticipantContactProfile_DTO GetParticipantContactProfiles()
-        //{
-        //    var result = ConfigurationService.Instance.Root.GetSection("Participant_Contact_Profile").Get<ParticipantContactProfile_DTO>();
-        //    if (result == null)
-        //    {
-        //        throw new ConfigurationNotFoundException(typeof(ParticipantContactProfile_DTO).ToString());
-        //    }
-        //    return result;
-        //}
-        //OR_1572
-        //public OR_1572_TestData_DTO Get_OR_1572_TestData()
-        //{
-        //    var result = ConfigurationService.Instance.Root.GetSection("OR_1572_TestData").Get<OR_1572_TestData_DTO>();
-        //    if (result == null)
-        //    {
-        //        throw new ConfigurationNotFoundException(typeof(OR_1572_TestData_DTO).ToString());
-        //    }
-        //    return result;
-        //}
+        //Organization Settings
+        // Add to OR_Modules/Configuration/ConfigurationServices.cs file
+        public QS_2498_Organization_TestData_DTO Get_QS_2498_Organization_TestData()
+        {
+            var result = Instance.Root.GetSection("QS_2498_Organization_TestData").Get<QS_2498_Organization_TestData_DTO>();
+            if (result == null)
+            {
+                throw new ConfigurationNotFoundException(typeof(QS_2498_Organization_TestData_DTO).ToString());
+            }
+            return result;
+        }
 
-            // Browswer Settings
-        public WebSettings_DTO GetWebSettings()
-            => ConfigurationService.Instance.Root.GetSection("webSettings").Get<WebSettings_DTO>();
+        //Organization Settings
+        // Add to OR_Modules/Configuration/ConfigurationServices.cs file
+        public T GetSettings<T>(string sectionName) where T : QS_2498_Organization_TestData_DTO
+        {
+            var result = Instance.Root.GetSection(sectionName).Get<T>();
+            if (result == null)
+            {
+                throw new ConfigurationNotFoundException(typeof(T).ToString());
+            }
+            return result;
+        }
+
+        //// Browswer Settings
+        //public WebSettings_DTO GetWebSettings()
+        //    => ConfigurationService.Instance.Root.GetSection("webSettings").Get<WebSettings_DTO>();
 
         // Standard 
         private IConfigurationRoot InitializeConfiguration()

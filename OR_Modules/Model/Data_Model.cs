@@ -23,4 +23,14 @@ namespace OR_Modules.Model
         public string UserId { get; set; } = UserSettings.UserId;
         public string UserPassword { get; set; } = UserSettings.UserPassword; 
     }
+
+    public sealed class QS_2498_Organization_TestData_Model
+    {
+        public static QS_2498_Organization_TestData_DTO Data { get; set; }
+            = ConfigurationService.Instance.Get_QS_2498_Organization_TestData();
+
+        public string ContactName { get; set; } = Data.ContactName;
+        public string OrganizationName { get; set; } = Data.OrganizationName;
+        public int SectorName { get; set; } = Data.SectorName;
+    }
 }

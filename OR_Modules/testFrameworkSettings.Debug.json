@@ -43,12 +43,19 @@
     //
     "site": "LOCAL",
     "singleSignOn": false,
-    "localUrl": "http://localhost:8080/",
+    "localUrl": "http://localhost:65523/",
     "doeDevOrUrl": "https://outreach-dev.doe.gov",
     "doeUatOrUrl": "https://outreach-uat.doe.gov"
   },
   "userSettings": {
     "UserId": "scotth",
     "UserPassword": ""
+  },
+  //Generated : 2020-12-17
+  "QS_2498_Organization_TestData": {
+    "contactName": "Contact Name",
+    "organizationName": "Indian Energy LLC",
+    "sectorName": "1"
   }
+
 }

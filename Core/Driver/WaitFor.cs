@@ -109,13 +109,13 @@ namespace Core.Driver
                 }
                 catch (InvalidOperationException e)
                 {
-                    return false;
-                    //return e.Message.ToLower().Contains("unable to get browser");
+                    //return false;
+                    return e.Message.ToLower().Contains("unable to get browser");
                 }
                 catch (WebDriverException e)
                 {
-                    return false;
-                    //e.Message.ToLower().Contains("unable to connect");
+                    //return false;
+                    return e.Message.ToLower().Contains("unable to connect");
                 }
                 catch (Exception)
                 {

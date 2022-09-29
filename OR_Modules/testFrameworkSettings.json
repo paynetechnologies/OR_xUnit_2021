@@ -34,15 +34,16 @@
     }
   },
   "urlSettings": {
-    // site = "local", graphite", "doeDevQS", "doeUatQS", "doeUatAp"
-    // SSO = true or false
-    "site": "local",
-    "singleSignOn": false,
-    "localUrl": "http://192.168.23.132:81",
-    "graphiteUrl": "http://energy.graphitegtc.com",
+    "doeDevQsUrl": "https://efaddevquicksilver.energy.gov",
     "doeUatApUrl": "https://dart-uat.loanprograms.energy.gov",
     "doeUatQsUrl": "https://efadtestquicksilver.doe.gov",
-    "doeDevQsUrl": "https://efaddevquicksilver.energy.gov"
+    "graphiteUrl": "http://energy.graphitegtc.com",
+    //"localUrl": "http://192.168.23.132:81",
+    "localUrl": "http://localhost:65523/",
+    "singleSignOn": false,
+    // site = "local", graphite", "doeDevQS", "doeUatQS", "doeUatAp"
+    // SSO = true or false
+    "site": "local"
   },
   "userSettings": {
     //"UserId": "howard.payne",
@@ -120,10 +121,10 @@
   "OR_1978_AmendmentRequest_TestData": {
     // Bratton
     "assignedGroup": "PMD Loan Task",
-    "loanProfileName": "GENESIS SOLAR, LLC – F1017",
+    "loanProfileName": "GENESIS SOLAR, LLC ï¿½ F1017",
     "taskName": "QS-1978 Test Amendment Request Process",
     "assignedTo": "Hall, Raymond",
-    "taskType": "Amendment Request’ ",
+    "taskType": "Amendment Requestï¿½ ",
     "dueDate": "9/01/2019",
     "dueDateStatus": "Firm",
     "legalInvolvement": "Not Required",
@@ -136,10 +137,10 @@
   "OR_1978_WaiverRequest_TestData": {
     // Bratton
     "assignedGroup": "PMD Loan Task",
-    "loanProfileName": "GENESIS SOLAR, LLC – F1017",
+    "loanProfileName": "GENESIS SOLAR, LLC ï¿½ F1017",
     "taskName": "QS-1978 Test Waiver Request Process",
     "assignedTo": "Hall, Raymond",
-    "taskType": "Amendment Request’ ",
+    "taskType": "Amendment Requestï¿½ ",
     "dueDate": "9/01/2019",
     "dueDateStatus": "Firm",
     "legalInvolvement": "Not Required",
@@ -148,10 +149,10 @@
   "OR_1978_ActionRequest_TestData": {
     // Hyman
     "assignedGroup": "PMD Loan Task",
-    "loanProfileName": "MOJAVE SOLAR, LLC – 1131",
+    "loanProfileName": "MOJAVE SOLAR, LLC ï¿½ 1131",
     "taskName": "QS-1978 Test Action Request Process",
     "assignedTo": "Hall, Raymond",
-    "taskType": "Action Request’ ",
+    "taskType": "Action Requestï¿½ ",
     "dueDate": "9/01/2019",
     "dueDateStatus": "Firm",
     "legalInvolvement": "Not Required",
@@ -160,7 +161,7 @@
   "OR_1978_ConsentRequest_TestData": {
     // Murray
     "assignedGroup": "PMD Loan Task",
-    "loanProfileName": "KEPCO SOLAR OF ALAMOSA LLC – 1232",
+    "loanProfileName": "KEPCO SOLAR OF ALAMOSA LLC ï¿½ 1232",
     "taskName": "QS-1978 Test Consent Request Process",
     "assignedTo": "Hall, Raymond",
     "taskType": "Consent Request",
@@ -172,7 +173,7 @@
   "OR_1978_CreditReport_TestData": {
     // Murray
     "assignedGroup": "PMD Borrower Task",
-    "loanProfileName": "KEPCO SOLAR OF ALAMOSA LLC – 1232",
+    "loanProfileName": "KEPCO SOLAR OF ALAMOSA LLC ï¿½ 1232",
     "taskName": "QS-1978 Test Credit Report Process",
     "assignedTo": "Hall, Raymond",
     "taskType": "Credit Report",
@@ -218,10 +219,10 @@
   },
   "OR_2080_TestData": {
     "assignedGroup": "PMD Loan Task",
-    "loanProfileName": "GENESIS SOLAR, LLC – F1017",
+    "loanProfileName": "GENESIS SOLAR, LLC ï¿½ F1017",
     "taskName": "QS-2080 PMD Task ITems Test",
     "assignedTo": "Hall, Raymond",
-    "taskType": "Amendment Request’ ",
+    "taskType": "Amendment Requestï¿½ ",
     "dueDate": "9/30/2019",
     "dueDateStatus": "Firm",
     "legalInvolvement": "Not Required",
